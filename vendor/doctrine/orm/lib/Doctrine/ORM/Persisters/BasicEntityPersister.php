@@ -322,7 +322,7 @@ class BasicEntityPersister
 
         $versionFieldColumnName = $this->quoteStrategy->getColumnName($versionField, $versionedClass, $this->_platform);
 
-        //FIXME: Order with composite keys might not be correct
+        //FIXME: Project with composite keys might not be correct
         $sql = 'SELECT ' . $versionFieldColumnName
              . ' FROM ' . $this->quoteStrategy->getTableName($versionedClass, $this->_platform)
              . ' WHERE ' . implode(' = ? AND ', $identifier) . ' = ?';

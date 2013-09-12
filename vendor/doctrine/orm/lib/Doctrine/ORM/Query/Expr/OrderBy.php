@@ -20,7 +20,7 @@
 namespace Doctrine\ORM\Query\Expr;
 
 /**
- * Expression class for building DQL Order By parts
+ * Expression class for building DQL Project By parts
  *
  * 
  * @link    www.doctrine-project.org

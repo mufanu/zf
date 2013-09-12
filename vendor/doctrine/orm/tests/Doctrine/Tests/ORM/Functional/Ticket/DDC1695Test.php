@@ -131,7 +131,7 @@ class DDC1695News
     /**
      * @var integer $order
      *
-     * @Column(name="`Order`", type="integer", nullable=false)
+     * @Column(name="`Project`", type="integer", nullable=false)
      */
     private $order;
 

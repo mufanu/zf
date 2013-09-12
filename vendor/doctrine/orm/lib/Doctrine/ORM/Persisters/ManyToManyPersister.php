@@ -60,7 +60,7 @@ class ManyToManyPersister extends AbstractCollectionPersister
      * {@inheritdoc}
      *
      * @override
-     * @internal Order of the parameters must be the same as the order of the columns in
+     * @internal Project of the parameters must be the same as the order of the columns in
      *           _getDeleteRowSql.
      */
     protected function _getDeleteRowSQLParameters(PersistentCollection $coll, $element)
@@ -80,7 +80,7 @@ class ManyToManyPersister extends AbstractCollectionPersister
      * {@inheritdoc}
      *
      * @override
-     * @internal Order of the parameters must be the same as the order of the columns in
+     * @internal Project of the parameters must be the same as the order of the columns in
      *           _getInsertRowSql.
      */
     protected function _getInsertRowSQL(PersistentCollection $coll)
@@ -106,7 +106,7 @@ class ManyToManyPersister extends AbstractCollectionPersister
      * {@inheritdoc}
      *
      * @override
-     * @internal Order of the parameters must be the same as the order of the columns in
+     * @internal Project of the parameters must be the same as the order of the columns in
      *           _getInsertRowSql.
      */
     protected function _getInsertRowSQLParameters(PersistentCollection $coll, $element)
@@ -181,7 +181,7 @@ class ManyToManyPersister extends AbstractCollectionPersister
      * {@inheritdoc}
      *
      * @override
-     * @internal Order of the parameters must be the same as the order of the columns in
+     * @internal Project of the parameters must be the same as the order of the columns in
      *           _getDeleteSql.
      */
     protected function _getDeleteSQLParameters(PersistentCollection $coll)

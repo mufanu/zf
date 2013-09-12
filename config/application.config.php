@@ -10,10 +10,11 @@ return array(
         'Application',
         'DoctrineModule',
         'DoctrineORMModule',
-        'User',
         'ZfcBase',
         'ZfcUser',
-        'BjyAuthorize',
+        'ZfcUserDoctrineORM',
+        'User',
+        'Project',
         ),
     'module_listener_options' => array(
         'module_paths' => array(
