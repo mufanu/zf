@@ -1,0 +1,11 @@
+<?php print $this->showMessages(); ?>
+<pre>
+<?php print_r($this->projects); ?>
+</pre>
+
+<ul>
+
+    <?php foreach ($this->projects as $project): ?>
+        <li><?php //print $project->title; ?></li>
+    <?php endforeach; ?>
+</ul>

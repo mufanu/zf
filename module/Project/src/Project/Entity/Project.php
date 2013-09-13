@@ -22,6 +22,8 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Project
 {
+    const PUBLISHED = 1;
+    const NOT_PUBLISHED = 0;
     /**
      * @var int
      * @ORM\Id
