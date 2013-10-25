@@ -18,6 +18,7 @@
         "zf-commons/zfc-user": "0.1.*",
         "zf-commons/zfc-user-doctrine-orm": "0.1.*",
         "zendframework/zend-developer-tools": "dev-master",
+        "zf-commons/zfc-twig": "dev-master",
         "update": "dev-master"
     }
 }
